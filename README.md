@@ -8,6 +8,7 @@ Mit diesem Script kann man die Mumble-Log-Datei auslesen.
 Zunächst ändert man in der mumble-server.ini:
 
 logfile = /var/www/_stat/mumble-server.log
+
 logdays = 0
 
 Das Verzeichnis /var/www/_stat sollte man mit einer .htaccess-Datei vor neugierigen Blicken schützen. 
