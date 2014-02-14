@@ -1,4 +1,3 @@
-
 <?php
  
 // Log-Auswertung für registrierte Mumble-User
@@ -31,7 +30,7 @@ $neueliste = array();
 for($suchbegriff=1; $suchbegriff <=50; $suchbegriff++) 
 {
 $x=0;
-$datei = fopen("http://USER:PASSWORT@DEINE_URL/PFAD_ZU_mumble-server.log","r")or die ("Kann Datei nicht lesen.");
+$datei = fopen("http://USER:PASSWORT@DEINE_URL/var/www/_stats/mumble-server.log","r")or die ("Kann Datei nicht lesen.");
 $srvstart = fgets($datei,14);		
 
 while(!feof($datei))
