@@ -1,10 +1,6 @@
 
-
 <?php
-// #########################################################################
-// ##           DIESER HINWEIS DARF NICHT ENTFERNT WERDEN                 ##
-// #########################################################################
-// 
+ 
 // Log-Auswertung für registrierte Mumble-User
 //
 // LICENSE: CREATIVE COMMONS PUBLIC LICENSE  "Namensnennung — Nicht-kommerziell 2.0"
@@ -15,10 +11,6 @@
 // @license    http://creativecommons.org/licenses/by-nc/2.0/de/
 // @version    $1.0.3
 // @link       http://virtueller-stammtisch.de
-//
-// #########################################################################
-// ##           DIESER HINWEIS DARF NICHT ENTFERNT WERDEN                 ##
-// #########################################################################
 
 function intervall($sek) {
     $i = sprintf('%d Tag%s, %d Stunde%s,'.
